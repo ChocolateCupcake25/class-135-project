@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <title> ADV-135 Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="fox.jpg">
+    <center>
+        <h1 class="btn heading" >AI Object Finder 
+            <br>
+            <span id="note">(The input name which you will give should match the name given in the CocoSsd then only it wil detect)</p>
+        </h1>
+        <br><br>
+        <p class="btn btn-warning">Object Name:</p>
+        <br>
+        <input id="Object_Name" class="btn">
+        <br><br>
+        <button onclick="start()" class="btn btn-primary start">Start</button>
+        <br>
+        
+            <h3 class="btn btn-info" id="status_of_model"></h3>
+            <h3 class="btn " id="stauts_of_object_name"></h3>
+        
+    </center>
+    <div class="copy-right-footer" >
+
+ Developed by-Ziyah Virani 
+
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
